@@ -6,6 +6,9 @@ eureka:
     fetch-registry: false
   server:
     waitTimeInMsWhenSyncEmpty: 0
+  instance:
+    prefer-ip-address: true
+    appname: ${spring.application.name}
 management:
   context-path: /management
   security:
