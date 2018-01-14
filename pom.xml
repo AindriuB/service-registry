@@ -87,10 +87,6 @@
 							<directory>${project.build.directory}</directory>
 							<include>${project.build.finalName}.jar</include>
 						</resource>
-						<resource>
-							<targetPath>/</targetPath>
-							<dockerDirectory>${project.basedir}/docker</dockerDirectory>
-						</resource>
 					</resources>
 				</configuration>
 			</plugin>
